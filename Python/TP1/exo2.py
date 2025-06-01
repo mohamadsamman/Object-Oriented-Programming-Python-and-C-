@@ -1,0 +1,11 @@
+print("Phrase initiale")
+poeme = "Les sanglots longs des violons de l’automne blessent mon coeur d’une langueur monotone. Tout suffocant et blême, quand sonne l’heure, je me souviens des jours anciens et je pleure"
+print(poeme)
+print("Le nombre de caractères de poeme est", len(poeme))
+print(len(poeme))
+L = poeme.split()
+print("Le nombre d elements de la liste L est",len(L))
+Q=poeme.replace("automne","hiver")
+Q=Q.replace("jours","temps")
+print("Phrase modifiee")
+print(Q)
